@@ -9,6 +9,9 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
 
+    <!-- Libs -->
+    <link rel="stylesheet" href="lib/material-toggle.css">
+
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -158,19 +161,27 @@
         </div>
         <div class="spg-row">
             <label class="spg-col-6">Include Special Symbols</label>
-            <input type="checkbox" id="spg-cb-specials"> (e.g. !@#$%^)
+            <input type="checkbox" id="spg-cb-specials" class="cb-material">
+            <label class="toggle" for="spg-cb-specials"><span></span></label>
+            (e.g. !@#$%^)
         </div>
         <div class="spg-row">
             <label class="spg-col-6">Include Lowercase Characters</label>
-            <input type="checkbox" id="spg-cb-lowercase" checked> (e.g. abcdef)
+            <input type="checkbox" id="spg-cb-lowercase" checked class="cb-material">
+            <label class="toggle" for="spg-cb-lowercase"><span></span></label>
+            (e.g. abcdef)
         </div>
         <div class="spg-row">
             <label class="spg-col-6">Include Uppercase Characters</label>
-            <input type="checkbox" id="spg-cb-uppercase" checked> (e.g. ABCDEF)
+            <input type="checkbox" id="spg-cb-uppercase" checked class="cb-material">
+            <label class="toggle" for="spg-cb-uppercase"><span></span></label>
+            (e.g. ABCDEF)
         </div>
         <div class="spg-row">
             <label class="spg-col-6">Include Numbers</label>
-            <input type="checkbox" id="spg-cb-numbers" checked> (e.g. 123456)
+            <input type="checkbox" id="spg-cb-numbers" checked class="cb-material">
+            <label class="toggle" for="spg-cb-numbers"><span></span></label>
+            (e.g. 123456)
         </div>
 
         <div class="spg-row text-center">
