@@ -4,6 +4,7 @@ $error-height: 30px;
 
 $color-success: #246114;
 $color-info: #0c4d83;
+$color-gray: #e2e2e2;
 
 @mixin fontQuicksand {
     font-family: 'Quicksand', sans-serif;
@@ -20,6 +21,11 @@ input, button, h1, h2, h3 {
     @include fontQuicksand;
 }
 
+a {
+    text-decoration: none;
+    color: $color-info;
+}
+
 .content {
     padding: 10px;
 }
@@ -32,10 +38,10 @@ h2 {
 footer {
     height: $footer-height;
     line-height: $footer-height;
-    background-color: rgb(238, 238, 238);
+    background-color: $color-gray;
     text-align: center;
-    font-size: 0.8em;
-    margin-top: 12px;
+    font-size: 0.9em;
+    margin-top: 4px;
 }
 
 .spg-row {
@@ -92,6 +98,7 @@ button {
     align-items: center;
     margin-top: 15px;
     margin-bottom: 10px;
+    position: relative;
     input {
         padding: 8px 10px;
         outline: none;
@@ -103,5 +110,16 @@ button {
     }
     button {
         margin: 4px !important;
+    }
+    .spg-copied {
+        position: absolute;
+        right: 6px;
+        top: -35px;
+        height: 26px;
+        line-height: 26px;
+        background-color: $color-gray;
+        text-align: center;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }

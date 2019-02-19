@@ -9,6 +9,11 @@ input, button, h1, h2, h3 {
   font-family: 'Quicksand', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #0c4d83;
+}
+
 .content {
   padding: 10px;
 }
@@ -21,10 +26,10 @@ h2 {
 footer {
   height: 40px;
   line-height: 40px;
-  background-color: #eeeeee;
+  background-color: #e2e2e2;
   text-align: center;
-  font-size: 0.8em;
-  margin-top: 12px;
+  font-size: 0.9em;
+  margin-top: 4px;
 }
 
 .spg-row {
@@ -146,6 +151,7 @@ button.primary {
           align-items: center;
   margin-top: 15px;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .pwd-box input {
@@ -163,5 +169,17 @@ button.primary {
 
 .pwd-box button {
   margin: 4px !important;
+}
+
+.pwd-box .spg-copied {
+  position: absolute;
+  right: 6px;
+  top: -35px;
+  height: 26px;
+  line-height: 26px;
+  background-color: #e2e2e2;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 /*# sourceMappingURL=style.css.map */

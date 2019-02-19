@@ -65,13 +65,12 @@ function generatePassword(passwordLength, selectedOptions) {
 
 function showError(errorMessage) {
     const $err = $('.spg-error');
-    $err.css('display', 'block');
     $err.text(errorMessage);
+    $err.fadeIn(150);
 }
 
 function hideError() {
-    const $err = $('.spg-error');
-    $err.css('display', 'none');
+    $('.spg-error').fadeOut(0);
 }
 
 $('#spg-btn-gen').click(() => {
@@ -84,4 +83,17 @@ $('#spg-btn-gen').click(() => {
     }
     hideError();
     $('#spg-inp-pwd').val(generatePassword(passwordLength, selectedOptions));
+})
+
+$('#spg-inp-pwd').click((function () {
+    this.select();
+}));
+
+$('#spg-btn-copy').click(() => {
+    $('#spg-inp-pwd').select();
+    document.execCommand('copy');
+    $('.spg-copied').fadeIn(150);
+    setTimeout(() => {
+        $('.spg-copied').fadeOut(100);
+    }, 1000);
 })
