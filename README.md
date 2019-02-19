@@ -2,6 +2,8 @@
 
 Chrome Extension - Secure Password Generator (SPG)
 
+Available demo on web version: huynhsamha.github.io/chrome-extension-spg
+
 ### Install on Chrome Browser
 <p align="center"><img src="./screenshots/01.png" width="90%"></p>
 
