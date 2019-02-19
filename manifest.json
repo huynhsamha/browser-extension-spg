@@ -1,6 +1,6 @@
 {
     "name": "Secure Password Generator (SPG)",
-    "description": "Secure Password Generator (SPG) - Install once, use anytime. Open source, available at https://github.com/huynhsamha/chrome-extension-spg",
+    "description": "Secure Password Generator (SPG) - Install once, use anytime. Available at https://github.com/huynhsamha/chrome-extension-spg",
     "version": "0.0.1",
     "manifest_version": 2,
     "browser_action": {
