@@ -97,3 +97,7 @@ $('#spg-btn-copy').click(() => {
         $('.spg-copied').fadeOut(100);
     }, 1000);
 })
+
+$('a[href]').click(function() {
+    chrome.tabs.create({active: true, url: this.href})
+})
