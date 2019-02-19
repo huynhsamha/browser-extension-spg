@@ -41,9 +41,18 @@ a {
     padding: 10px;
 }
 
-h2 {
-    margin-top: 0px;
-    margin-bottom: 20px;
+.top-head-icon {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+    img { flex: 0 };
+    h2 { 
+        flex: 1;
+        margin: 0px;
+        margin-left: 12px;
+        align-self: center;
+        align-content: center;
+    };
 }
 
 footer {
@@ -56,8 +65,8 @@ footer {
 }
 
 .spg-row {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
     width: 100%;
     display: inline-block;
     @for $i from 1 through 12 {
