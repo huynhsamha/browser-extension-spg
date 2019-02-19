@@ -11,8 +11,13 @@ header {
   width: 100%;
 }
 
-input, button, h1, h2, h3 {
+input, button, h1, h2, h3, select, option {
   font-family: 'Quicksand', sans-serif;
+}
+
+select, option {
+  font-size: 1em;
+  outline: none;
 }
 
 a {
