@@ -5,13 +5,19 @@ body {
   margin: 0px;
 }
 
+header {
+  background-color: #056ec5;
+  height: 8px;
+  width: 100%;
+}
+
 input, button, h1, h2, h3 {
   font-family: 'Quicksand', sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #0c4d83;
+  color: #056ec5;
 }
 
 .content {
@@ -26,7 +32,7 @@ h2 {
 footer {
   height: 40px;
   line-height: 40px;
-  background-color: #e2e2e2;
+  background-color: #ebebeb;
   text-align: center;
   font-size: 0.9em;
   margin-top: 4px;
@@ -128,11 +134,11 @@ button {
 }
 
 button.success {
-  background-color: #246114;
+  background-color: #187a00;
 }
 
 button.primary {
-  background-color: #0c4d83;
+  background-color: #056ec5;
 }
 
 .pwd-box {
@@ -157,7 +163,7 @@ button.primary {
 .pwd-box input {
   padding: 8px 10px;
   outline: none;
-  border: 1px solid #0c4d83;
+  border: 1px solid #056ec5;
   border-radius: 4px;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -177,7 +183,7 @@ button.primary {
   top: -35px;
   height: 26px;
   line-height: 26px;
-  background-color: #e2e2e2;
+  background-color: #ebebeb;
   text-align: center;
   padding-left: 16px;
   padding-right: 16px;

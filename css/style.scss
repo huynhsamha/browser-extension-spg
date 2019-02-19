@@ -2,9 +2,9 @@ $frame-width: 460px;
 $footer-height: 40px;
 $error-height: 30px;
 
-$color-success: #246114;
-$color-info: #0c4d83;
-$color-gray: #e2e2e2;
+$color-success: #187a00;
+$color-info: #056ec5;
+$color-gray: #ebebeb;
 
 @mixin fontQuicksand {
     font-family: 'Quicksand', sans-serif;
@@ -15,6 +15,12 @@ body {
     width: $frame-width;
     font-size: 14px;
     margin: 0px; // fix default margin of body in chrome extension
+}
+
+header {
+    background-color: $color-info;
+    height: 8px;
+    width: 100%;
 }
 
 input, button, h1, h2, h3 {
