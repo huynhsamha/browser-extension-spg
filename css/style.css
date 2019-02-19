@@ -1,0 +1,162 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  width: 460px;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.content {
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 40px;
+  line-height: 40px;
+  background-color: #eeeeee;
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 12px;
+}
+
+.spg-row {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 100%;
+  display: inline-block;
+}
+
+.spg-row .spg-col-1 {
+  display: inline-block;
+  width: 8.33333%;
+}
+
+.spg-row .spg-col-2 {
+  display: inline-block;
+  width: 16.66667%;
+}
+
+.spg-row .spg-col-3 {
+  display: inline-block;
+  width: 25%;
+}
+
+.spg-row .spg-col-4 {
+  display: inline-block;
+  width: 33.33333%;
+}
+
+.spg-row .spg-col-5 {
+  display: inline-block;
+  width: 41.66667%;
+}
+
+.spg-row .spg-col-6 {
+  display: inline-block;
+  width: 50%;
+}
+
+.spg-row .spg-col-7 {
+  display: inline-block;
+  width: 58.33333%;
+}
+
+.spg-row .spg-col-8 {
+  display: inline-block;
+  width: 66.66667%;
+}
+
+.spg-row .spg-col-9 {
+  display: inline-block;
+  width: 75%;
+}
+
+.spg-row .spg-col-10 {
+  display: inline-block;
+  width: 83.33333%;
+}
+
+.spg-row .spg-col-11 {
+  display: inline-block;
+  width: 91.66667%;
+}
+
+.spg-row .spg-col-12 {
+  display: inline-block;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.spg-error {
+  background-color: #f11e1e;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 0.8em;
+}
+
+button {
+  text-align: center;
+  padding: 8px 18px;
+  border-radius: 4px;
+  color: white;
+  outline: none;
+  border: none;
+  margin-bottom: 12px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+button.success {
+  background-color: #246114;
+}
+
+button.primary {
+  background-color: #0c4d83;
+}
+
+.pwd-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.pwd-box input {
+  padding: 8px 10px;
+  outline: none;
+  border: 1px solid #0c4d83;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 1em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.pwd-box button {
+  margin: 4px !important;
+}
+/*# sourceMappingURL=style.css.map */

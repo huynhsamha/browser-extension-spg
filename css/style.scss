@@ -1,0 +1,98 @@
+$frame-width: 460px;
+$footer-height: 40px;
+$error-height: 30px;
+
+$color-success: #246114;
+$color-info: #0c4d83;
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    width: $frame-width;
+    font-size: 14px;
+    margin: 0px; // fix default margin of body in chrome extension
+}
+
+.content {
+    padding: 10px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: $footer-height;
+    line-height: $footer-height;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 12px;
+}
+
+.spg-row {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 100%;
+    display: inline-block;
+    @for $i from 1 through 12 {
+        .spg-col-#{$i} {
+            display: inline-block;
+            width: $i/12 * 100%;
+        }
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.spg-error {
+    background-color: #f11e1e;
+    color: white;
+    height: $error-height;
+    line-height: $error-height;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 0.8em;
+}
+
+button {
+    text-align: center;
+    padding: 8px 18px;
+    border-radius: 4px;
+    color: white;
+    outline: none;
+    border: none;
+    margin-bottom: 12px;
+    margin-top: 18px;
+    cursor: pointer;
+    &.success {
+        background-color: $color-success;
+    }
+    &.primary {
+        background-color: $color-info;
+    }
+}
+
+.pwd-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    input {
+        padding: 8px 10px;
+        outline: none;
+        border: 1px solid $color-info;
+        border-radius: 4px;
+        box-shadow: none;
+        font-size: 1em;
+        flex: 1;
+    }
+    button {
+        margin: 4px !important;
+    }
+}

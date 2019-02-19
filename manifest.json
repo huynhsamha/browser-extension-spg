@@ -1,0 +1,19 @@
+{
+    "name": "SPG - Secure Password Generator",
+    "description": "Secure Password Generator (SPG) - Install once, use anytime",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "storage"
+    ],
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "img/favicon.png"
+    },
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": false
+    }
+}
