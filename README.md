@@ -4,7 +4,7 @@ Chrome Extension and Firefox Add-on - Secure Password Generator (SPG)
 
 Firefox Add-on is available here https://addons.mozilla.org/en-US/firefox/addon/secure-password-generator-spg/
 
-Available demo on web version: https://huynhsamha.github.io/chrome-extension-spg/
+Available demo on web version: https://huynhsamha.github.io/browser-extension-spg/
 
 ### Install extension on Chrome browser
 + Clone or download this reposiory to your local machine
