@@ -16,6 +16,9 @@ Available demo on web version: https://huynhsamha.github.io/browser-extension-sp
 ### Install Add-on on Firefox
 Open https://addons.mozilla.org/en-US/firefox/addon/secure-password-generator-spg/ and install Add-on on your Firefox browser - very simple.
 
+### Donate
+<a href="https://www.buymeacoffee.com/harisk" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
 ### Screenshots
 #### On Chrome
 <p align="center"><img src="./screenshots/01.png" width="90%"></p>
